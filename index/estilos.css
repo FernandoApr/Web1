@@ -1,0 +1,118 @@
+/* Estilos para el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Estilos para el contenedor de las cards */
+.card-deck {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+/* Estilos para de la card */
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la imagen de la card */
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Estilos para el contenido de la card */
+.card-content {
+    padding: 20px;
+}
+
+/* Estilos para el título de la card */
+.card-title {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+/* Estilos para el texto de la card */
+.card-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos para los enlaces de la card */
+.card-link {
+    display: block;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #428bca;
+    text-decoration: none;
+}
+
+/* Estilos para el hover de los enlaces de la card */
+.card-link:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para la sección principal */
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container_nav {
+    width: 90%;
+    margin: auto;
+    height: 150px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.nav_element{
+    background-color: blueviolet;
+    flex: 1 1 auto;
+}
+
+header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: lightgray;
+}
